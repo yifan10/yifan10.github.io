@@ -1,1 +1,44 @@
-Hello World
+<!DOCTYPE html>
+
+<!--Here is the title and the script needs to be used-->
+<html>
+
+<head>
+    <title>NASA Image</title>
+    <link rel="stylesheet" type="text/css" href="nasa.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <h1 class="header" id="header">Spacestagram</h1>
+    <h2 class="subtitle" id="subtitle">Brought to you by Nasa's image API</h2>
+    <div class="mainbody">
+        <div class="one" id="one">
+            <div class="first" id="first">
+                <img id="firstMyImg" class="MyImg">
+                <div class="title" id="firstTitle"></div>
+                <div class="date" id="firstDate"></div>
+                <div class="description" id="firstDescription"></div>
+                <button type="button" class="buttons" id="firstB" onclick="myFunction('first')">Like</button>
+                <button type="button" class="share" id="facebook" onclick="share('first')"><i
+                        class="fa fa-share-alt"></i> Facebook</button>
+            </div>
+        </div>
+        <div class="two" id="two">
+            <div class="second" id="second">
+                <img id="secondMyImg" class="MyImg">
+                <div class="title" id="secondTitle"></div>
+                <div class="date" id="secondDate"></div>
+                <div class="description" id="secondDescription"></div>
+                <button type="button" class="buttons" id="secondB" onclick="myFunction('second')">Like</button>
+                <button type="button" class="share" id="facebook" onclick="share('second')"><i
+                        class="fa fa-share-alt"></i> Facebook</button>
+            </div>
+        </div>
+    </div>
+    <script src="nasa.js" defer></script>
+</body>
+
+</html>

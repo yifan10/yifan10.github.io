@@ -1,0 +1,97 @@
+body,
+html {
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.mainbody {
+  display: flex;
+  margin-top: 4%;
+}
+
+.header,
+.subtitle {
+  margin: 2.5%;
+}
+.header {
+  margin-top: 5%;
+  font-size: 2.5em;
+}
+.subtitle {
+  font-size: 1.2em;
+}
+
+.one,
+.two {
+  width: 50%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.first,
+.second {
+  width: 90%;
+  border: 2px solid darkgrey;
+  padding: 1% 1% 3% 1%;
+  background-color: rgb(56, 56, 56);
+  border-radius: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.MyImg {
+  width: 94%;
+  height: 100%;
+  border-radius: 3%;
+}
+
+.title,
+.date,
+.description,
+.buttons,
+.MyImg {
+  margin: 3%;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 1.1em;
+}
+
+.description {
+  font-size: 0.9em;
+}
+.buttons {
+  width: 12%;
+  padding: 0.8%;
+  box-shadow: 2px 3px black;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 3px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+.buttons:hover {
+  background-color: pink;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.share {
+  margin: 3%;
+  float: right;
+  background: none;
+  color: aqua;
+  border-radius: 10%;
+
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 2px 2px white;
+}
